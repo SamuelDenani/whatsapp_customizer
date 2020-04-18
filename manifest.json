@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "WhatsApp Customizer",
+    "version": "0.0.1",
+    "content_scripts": [
+        {
+            "matches": ["https://web.whatsapp.com/"],
+            "css": ["./dist/css/main.css"],
+            "js": ["./src/js/content.js"] 
+        }
+    ]
+}
